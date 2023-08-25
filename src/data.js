@@ -59,15 +59,19 @@ export const projects = [
 
 export const skills = [
   {
-    name: "Java",
+    category: "Programming Languages",
+    names: ["Java", "C", "C++", "Python"],
   },
   {
-    name: "Python",
+    category: "Operating Systems",
+    names: ["Linux", "Windows"],
   },
   {
-    name: "C",
+    category: "Blockchain Technology",
+    names: ["Solidity", "Ganache", "Truffle", "Hardhat", "Web3.js", "Ether.js"],
   },
   {
-    name: "C++",
-  },
+    category: "Web Development",
+    names: ["HTML", "CSS", "Javascript", "React.Js", "NodeJs(ExpressJs)", "MongoDB", "NextJs"],
+  }
 ];
