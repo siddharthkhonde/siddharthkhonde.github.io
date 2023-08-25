@@ -60,18 +60,76 @@ export const projects = [
 export const skills = [
   {
     category: "Programming Languages",
-    names: ["Java", "C", "C++", "Python"],
+    names: [
+      "Java",
+      "C",
+      "C++",
+      "Golang",
+      "SQL",
+      "Python",
+      "NodeJs",
+      "ReactJs",
+      "Perl",
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "Object Oriented Programming",
+      "AngularJs",
+    ],
   },
   {
     category: "Operating Systems",
-    names: ["Linux", "Windows"],
+    names: ["Linux", "Unix", "Mac OS", "Windows"],
+  },
+  {
+    category: "DevOps Tools",
+    names: [
+      "Git",
+      "Docker",
+      "Puppet",
+      "Ansible",
+      "Selenium",
+      "Jenkins",
+      "Kubernetes",
+      "Splunk",
+    ],
+  },
+  {
+    category: "Frameworks",
+    names: [
+      "Spring",
+      "Spring Boot",
+      "Hibernate",
+      "Restful Webservices",
+      "Maven",
+      "Gradle",
+      "Microservices",
+      "MuleSoft",
+      "Kong",
+      "AWS",
+    ],
+  },
+  {
+    category: "Database",
+    names: ["OracleDB", "Microsoft SQL Server", "MySQL", "DynamoDB", "MongoDB"],
+  },
+  {
+    category: "Software",
+    names: [
+      "Microsoft Office",
+      "Adobe Photoshop",
+      "MATLAB",
+      "IBM SPSS Modeler for Analytics",
+      "Tableau",
+      "Eclipse",
+    ],
+  },
+  {
+    category: "Project Management Tools",
+    names: ["Jira", "Confluence"],
   },
   {
     category: "Blockchain Technology",
     names: ["Solidity", "Ganache", "Truffle", "Hardhat", "Web3.js", "Ether.js"],
   },
-  {
-    category: "Web Development",
-    names: ["HTML", "CSS", "Javascript", "React.Js", "NodeJs(ExpressJs)", "MongoDB", "NextJs"],
-  }
 ];
