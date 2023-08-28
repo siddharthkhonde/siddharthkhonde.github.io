@@ -59,15 +59,98 @@ export const projects = [
 
 export const skills = [
   {
-    name: "Java",
+    category: "Programming Languages",
+    names: [
+      "Java",
+      "C",
+      "C++",
+      "Golang",
+      "SQL",
+      "Python",
+      "NodeJs",
+      "ReactJs",
+      "Perl",
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "Object Oriented Programming",
+      "AngularJs",
+    ],
   },
   {
-    name: "Python",
+    category: "Operating Systems",
+    names: ["Linux", "Unix", "Mac OS", "Windows"],
   },
   {
-    name: "C",
+    category: "DevOps Tools",
+    names: [
+      "Git",
+      "Docker",
+      "Puppet",
+      "Ansible",
+      "Selenium",
+      "Jenkins",
+      "Kubernetes",
+      "Splunk",
+    ],
   },
   {
-    name: "C++",
+    category: "Frameworks",
+    names: [
+      "Spring",
+      "Spring Boot",
+      "Hibernate",
+      "Restful Webservices",
+      "Maven",
+      "Gradle",
+      "Microservices",
+      "MuleSoft",
+      "Kong",
+      "AWS",
+    ],
+  },
+  {
+    category: "Database",
+    names: ["OracleDB", "Microsoft SQL Server", "MySQL", "DynamoDB", "MongoDB"],
+  },
+  {
+    category: "Software",
+    names: [
+      "Microsoft Office",
+      "Adobe Photoshop",
+      "MATLAB",
+      "IBM SPSS Modeler for Analytics",
+      "Tableau",
+      "Eclipse",
+    ],
+  },
+  {
+    category: "Project Management Tools",
+    names: ["Jira", "Confluence"],
+  },
+  {
+    category: "Blockchain Technology",
+    names: ["Solidity", "Ganache", "Truffle", "Hardhat", "Web3.js", "Ether.js"],
+  },
+];
+
+export const experiences = [
+  {
+    company: "TD Securities",
+    post: "Software Engineer",
+    location: "New York, NY, United States",
+    time: "October 2022 – Present",
+  },
+  {
+    company: "HSBC",
+    post: "Software Engineer",
+    location: "Jersey City, NJ, United States",
+    time: "November 2019 – October 2022",
+  },
+  {
+    company: "Data AnalyticsIntern",
+    post: "Field Point Servicing",
+    location: "Greenwich, CT, United States",
+    time: " May 2019 – August 2019",
   },
 ];

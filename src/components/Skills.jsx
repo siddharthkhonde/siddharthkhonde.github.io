@@ -19,12 +19,20 @@ export default function Skills() {
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <h2>{skill.title}</h2>
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill.name}
-                </span>
+              <div className="bg-gray-800 rounded flex flex-col p-4 h-full items-center center">
+                <div className="flex flex-row m-2">
+                  <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                  <h2>{skill.category}</h2>
+                </div>
+                <div className="title-font font-medium text-white whitespace-normal center">
+                  {skill.names.map((name, index) => {
+                    return (
+                      <p key={index} className="mr-2 inline-block">
+                        {name}
+                      </p>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           ))}
