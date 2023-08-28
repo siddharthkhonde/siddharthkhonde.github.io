@@ -133,3 +133,24 @@ export const skills = [
     names: ["Solidity", "Ganache", "Truffle", "Hardhat", "Web3.js", "Ether.js"],
   },
 ];
+
+export const experiences = [
+  {
+    company: "TD Securities",
+    post: "Software Engineer",
+    location: "New York, NY, United States",
+    time: "October 2022 – Present",
+  },
+  {
+    company: "HSBC",
+    post: "Software Engineer",
+    location: "Jersey City, NJ, United States",
+    time: "November 2019 – October 2022",
+  },
+  {
+    company: "Data AnalyticsIntern",
+    post: "Field Point Servicing",
+    location: "Greenwich, CT, United States",
+    time: " May 2019 – August 2019",
+  },
+];
