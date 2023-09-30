@@ -8,8 +8,8 @@ import { experiences } from "../data";
 export default function Experiences() {
   return (
     <section id="experiences">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <BriefcaseIcon className="mx-auto inline-block w-10 mb-4"/>
+      <div className="container px-5 py-20 mx-auto text-center lg:px-40">
+        <BriefcaseIcon className="mx-auto inline-block w-10 mb-4" />
         <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
           Innovative Journey: Professional Experience
         </h1>
@@ -24,19 +24,21 @@ export default function Experiences() {
           closer look at my skills and expertise.
         </p>
         <div className="experience-timeline flex flex-wrap m-4 px-3 py-5">
-        <Timeline
-        align="alternate"
-        value={experiences}
-        marker={() => <BriefcaseIcon className="mx-auto inline-block w-7 rounded-full border-2 border-gray-500 p-1"/>}
-        content={(item) => (
-          <div className="bg-transparent p-2 rounded-md border-4 border-gray-500 text-white">
-            <h4>{item.post}</h4>
-            <h6>{item.company}</h6>
-            <p>{item.location}</p>
-            <p>{item.time}</p>
-          </div>
-        )}
-      />
+          <Timeline
+            align="alternate"
+            value={experiences}
+            marker={() => (
+              <BriefcaseIcon className="mx-auto inline-block w-7 rounded-full border-2 border-gray-500 p-1" />
+            )}
+            content={(item) => (
+              <div className="bg-transparent p-2 rounded-md border-4 border-gray-500 text-white">
+                <h4>{item.post}</h4>
+                <h6>{item.company}</h6>
+                <p>{item.location}</p>
+                <p>{item.time}</p>
+              </div>
+            )}
+          />
         </div>
       </div>
     </section>
