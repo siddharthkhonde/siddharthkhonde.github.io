@@ -11,12 +11,34 @@ export default function About() {
             I'm a Software Engineer.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Experienced Software Engineer with over 4 years of experience in
-            designing, developing, and deploying robust and scalable software
-            products while leveraging data-driven insights to inform engineering
-            decisions.Adept at problem-solving and optimizing code for
-            efficiency. Passionate about staying current with emerging
-            technologies and contributing to innovative projects.
+            Welcome to the digital home of software engineer Siddharth Khonde!
+            You can learn more about my professional experience and passion to
+            stay current with emerging technologies by contributing to
+            innovative projects.
+            <br></br>
+            <br></br>
+            <p>I currently live in New Jersey.</p>
+            <br></br>
+            <br></br>
+            <p>
+              The best way to reach me is via{" "}
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://www.linkedin.com/in/siddharthkhonde"
+                style={{ textDecoration: "underline" }}
+              >
+                LinkedIn
+              </a>{" "}
+              or via{" "}
+              <a
+                href="mailto:sk4590@columbia.edu"
+                style={{ textDecoration: "underline" }}
+              >
+                email
+              </a>
+              .
+            </p>
           </p>
           <div className="flex justify-center">
             <a

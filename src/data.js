@@ -144,24 +144,23 @@ export const skills = [
 export const experiences = [
   {
     company: "TD Securities",
-    post: "Software Engineer",
+    role: "Software Engineer (API Platform)",
     location: "New York, NY, United States",
-    time: "October 2022 – Present",
-    details: "",
+    duration: "October 2022 – Present",
+    details: ["abc", "def"],
   },
   {
-    company: "",
-    post: "Software Engineer, HSBC",
+    company: "HSBC",
+    role: "Software Engineer (Infrastructure)",
     location: "Jersey City, NJ, United States",
-    time: "November 2019 – October 2022",
-    details: "",
+    duration: "November 2019 – October 2022",
+    details: ["abc", "def"],
   },
   {
-    company: "Data AnalyticsIntern",
-    post: "Field Point Servicing",
+    company: "Field Point Servicing",
+    role: "Data Analytics Intern",
     location: "Greenwich, CT, United States",
-    time: " May 2019 – August 2019",
-    details:
-      "#Identified likely-to-default loans by analyzing loan portfolio data using pivot tables in Microsoft Excel to offer restructuring options and mitigate financial loss, Created POC for internal data analytics process flow.<br>#",
+    duration: " May 2019 – August 2019",
+    details: ["abc", "def"],
   },
 ];
