@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "Joint Bank Account - Smart Contract",
+    title: "Joint Bank Account",
     category: "Blockchain/Web3",
     description: "",
     image: "",
@@ -59,29 +59,31 @@ export const projects = [
 
 export const skills = [
   {
+    icon: "public/treeLogo.png",
     category: "Programming Languages",
     names: [
-      "Java",
-      "C",
-      "C++",
-      "Golang",
-      "SQL",
-      "Python",
-      "NodeJs",
+      "Java,",
+      "C,",
+      "C++,",
+      "Golang,",
+      "SQL,",
+      "Python,",
+      "Perl,",
+      "CSS,",
+      "HTML,",
+      "JavaScript,",
+      "AngularJs,",
+      "NodeJs,",
       "ReactJs",
-      "Perl",
-      "CSS",
-      "HTML",
-      "JavaScript",
-      "Object Oriented Programming",
-      "AngularJs",
     ],
   },
   {
+    icon: "public/treeLogo.png",
     category: "Operating Systems",
-    names: ["Linux", "Unix", "Mac OS", "Windows"],
+    names: ["Linux,", "Unix,", "Mac OS,", "Windows"],
   },
   {
+    icon: "public/treeLogo.png",
     category: "DevOps Tools",
     names: [
       "Git",
@@ -95,25 +97,28 @@ export const skills = [
     ],
   },
   {
+    icon: "public/treeLogo.png",
     category: "Frameworks",
     names: [
-      "Spring",
-      "Spring Boot",
-      "Hibernate",
-      "Restful Webservices",
-      "Maven",
-      "Gradle",
-      "Microservices",
-      "MuleSoft",
-      "Kong",
+      "Spring,",
+      "Spring Boot,",
+      "Hibernate,",
+      "Restful Webservices,",
+      "Maven,",
+      "Gradle,",
+      "Microservices,",
+      "MuleSoft,",
+      "Kong,",
       "AWS",
     ],
   },
   {
+    icon: "public/treeLogo.png",
     category: "Database",
     names: ["OracleDB", "Microsoft SQL Server", "MySQL", "DynamoDB", "MongoDB"],
   },
   {
+    icon: "public/treeLogo.png",
     category: "Software",
     names: [
       "Microsoft Office",
@@ -125,10 +130,12 @@ export const skills = [
     ],
   },
   {
+    icon: "public/treeLogo.png",
     category: "Project Management Tools",
     names: ["Jira", "Confluence"],
   },
   {
+    icon: "%PUBLIC_URL%/os.png",
     category: "Blockchain Technology",
     names: ["Solidity", "Ganache", "Truffle", "Hardhat", "Web3.js", "Ether.js"],
   },
@@ -140,17 +147,21 @@ export const experiences = [
     post: "Software Engineer",
     location: "New York, NY, United States",
     time: "October 2022 – Present",
+    details: "",
   },
   {
-    company: "HSBC",
-    post: "Software Engineer",
+    company: "",
+    post: "Software Engineer, HSBC",
     location: "Jersey City, NJ, United States",
     time: "November 2019 – October 2022",
+    details: "",
   },
   {
     company: "Data AnalyticsIntern",
     post: "Field Point Servicing",
     location: "Greenwich, CT, United States",
     time: " May 2019 – August 2019",
+    details:
+      "#Identified likely-to-default loans by analyzing loan portfolio data using pivot tables in Microsoft Excel to offer restructuring options and mitigate financial loss, Created POC for internal data analytics process flow.<br>#",
   },
 ];

@@ -31,11 +31,22 @@ export default function Experiences() {
               <BriefcaseIcon className="mx-auto inline-block w-7 rounded-full border-2 border-gray-500 p-1" />
             )}
             content={(item) => (
-              <div className="bg-transparent p-2 rounded-md border-4 border-gray-500 text-white">
+              <div
+                className="bg-transparent p-2 rounded-md border-4 border-gray-500 text-white"
+                style={{
+                  color: "white",
+                  fontWeight: 400,
+                  fontSize: 14,
+                  fontFamily: "Menlo, Meslo LG, monospace",
+                  lineHeight: 1.725,
+                  textRendering: "geometricPrecision",
+                }}
+              >
                 <h4>{item.post}</h4>
                 <h6>{item.company}</h6>
                 <p>{item.location}</p>
                 <p>{item.time}</p>
+                <p>{item.details}</p>
               </div>
             )}
           />
