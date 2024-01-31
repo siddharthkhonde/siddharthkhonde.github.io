@@ -1,5 +1,19 @@
 export const projects = [
   {
+    title: "Visualize your Local Git Contributions with Go",
+    category: "Command-Line Tools",
+    description: "",
+    image: "",
+    link: "https://github.com/siddharthkhonde/cli-tool-go-git-local-stats",
+  },
+  {
+    title: "wget CLI clone with Rust",
+    category: "Command-Line Tools",
+    description: "",
+    image: "",
+    link: "https://github.com/siddharthkhonde/cli-tool-wget-clone",
+  },
+  {
     title: "Joint Bank Account",
     category: "Blockchain/Web3",
     description: "",
