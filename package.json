@@ -1,7 +1,8 @@
 {
-  "name": "software-engineer-portfolio",
+  "name": "siddharthkhonde.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://siddharthkhonde.github.io",
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@heroicons/react": "^1.0.1",
@@ -11,6 +12,8 @@
     "react-scripts": "^1.1.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
@@ -24,6 +27,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "gh-pages": "^6.1.1",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   }
