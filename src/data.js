@@ -1,13 +1,20 @@
 export const projects = [
   {
-    title: "Visualize your Local Git Contributions with Go",
+    title: "Envoy Load Balancer",
+    category: "Networking",
+    description: "",
+    image: "",
+    link: "https://github.com/siddharthkhonde/envoy-load-balancer",
+  },
+  {
+    title: "Local Git Contributions Stats",
     category: "Command-Line Tools",
     description: "",
     image: "",
     link: "https://github.com/siddharthkhonde/cli-tool-go-git-local-stats",
   },
   {
-    title: "wget CLI clone with Rust",
+    title: "wget Clone",
     category: "Command-Line Tools",
     description: "",
     image: "",
